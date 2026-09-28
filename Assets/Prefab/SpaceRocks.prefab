@@ -182,10 +182,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895861782007937705}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 245456b5c658a0c48b6f02405f295089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  rockSpeed: 10
+  rockForce: 2
   rb: {fileID: 8895831260717553688}
