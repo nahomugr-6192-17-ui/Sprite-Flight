@@ -14,9 +14,9 @@ public class rockMovement : MonoBehaviour
         float rockSize = Random.Range(rockMinSize, rockMaxSize);
         rb.transform.localScale = new Vector3 (rockSize, rockSize, 1f);
         float rockForce = Random.Range(rockForceMin, rockForceMax) / rockSize;
-        rb.AddForce(Random.insideUnitCircle * rockForce, ForceMode2D.Impulse);
+        rb.AddForce(Random.insideUnitCircle * rockForce);
         float rockSpinSpeed = Random.Range(-rockTorque, rockTorque);
-        rb.AddTorque(rockSpinSpeed, ForceMode2D.Impulse);
+        rb.AddTorque(rockSpinSpeed);
     }
 
     // Update is called once per frame
